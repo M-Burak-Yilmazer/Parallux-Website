@@ -1,51 +1,60 @@
-*{margin:0;
-padding:0;
-box-sizing: border-box;
-font-family: 'Lato', sans-serif;}
-.first-page{
-    background-image: url(./img/banner\ 1.resim.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height:100vh ;
-    background-attachment: fixed;
-    opacity: .6;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-#title{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size:3rem;
-    letter-spacing: .5rem;
-    line-height: 80px;
-    background-color: #000000;
-    padding:2rem;
-    border-top-right-radius:2rem;
-    border-bottom-left-radius: 2rem;
-    outline:.5rem solid #4B0082;
-    outline-offset: 1rem;
+.first-page {
+  background-image: url(./img/banner\ 1.resim.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  opacity: 0.6;
 }
-.info__full{
-    text-align:center;
-    background-color: #f1f1f1;
-    color:#666666;
-    padding:3rem 5rem;
-    line-height:28.8px;
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  line-height: 80px;
+  background-color: #000000;
+  padding: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  outline: 0.5rem solid #4b0082;
+  outline-offset: 1rem;
 }
-.info__full h2{
-    font-size: 1.5rem;
-    margin:20px 0 20px 0;
-} 
-.info__full p{
-    margin:1rem 0;
+.info__full {
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #666666;
+  padding: 3rem 5rem;
+  line-height: 28.8px;
 }
-.background--container{
-    background-image:url(./img/resim2.png) ;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-
+.info__full h2 {
+  font-size: 1.5rem;
+  margin: 20px 0 20px 0;
+}
+.info__full p {
+  margin: 1rem 0;
+}
+.background--container {
+  background-image: url(./img/resim\ 3.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height:80vh;
+  position:relative;
+}
+.background--container img{
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
